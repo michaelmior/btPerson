@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+  <table name="btPerson">
+    <field name="bID" type="I">
+      <key />
+      <unsigned />
+    </field>
+    <field name="fID" type="I">
+      <unsigned />
+      <default value="0" />
+    </field>  
+    <field name="name" type="C" size="255" />
+    <field name="email" type="C" size="255" />
+  </table>
+</schema>
